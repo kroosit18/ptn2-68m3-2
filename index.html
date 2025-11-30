@@ -212,7 +212,7 @@
     function saveToSheet(records) {
       $.LoadingOverlay("show");
 
-      const url = 'https://script.google.com/macros/s/AKfycbx5brluUpaxJnlps9hFnbCE2oJmDHQrodDSMIDpCajtELMf9hyPW_AAaOcapl3N0k_Z_Q/exec'; // Replace with your web app URL
+      const url = 'https://script.google.com/macros/s/AKfycbzNfaZ-RStSc2brHj2OY90xyBG8Q5PZX-zoV7ftvZd1qIxuGyFWoneJvWJIy8_QgAzdUw/exec'; // Replace with your web app URL
 
       $.post(url, JSON.stringify(records), function(data) {
         $.LoadingOverlay("hide");
